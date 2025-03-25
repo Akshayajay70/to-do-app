@@ -1,10 +1,13 @@
-function App() {
+import Header from "./components/Header";
+import Todo from "./components/Todo";
 
+function App() {
   return (
-    <>
-      <div>Hii</div>
-    </>
-  )
+    <div className="bg-[#EFEFEF] font-sans min-h-screen">
+      <Header />
+      <Todo />
+    </div>
+  );
 }
 
-export default App
+export default App;
