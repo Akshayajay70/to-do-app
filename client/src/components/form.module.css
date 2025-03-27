@@ -1,0 +1,49 @@
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  margin: 3rem auto;
+  max-width: 700px;
+
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.inputBox {
+  flex: 1;
+  min-width: 200px;
+  border: none;
+  background-color: #3f7d58;
+  height: 2.5rem;
+  border-radius: 6px;
+  color: #efefef;
+  padding: 0 12px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.inputBox:focus {
+  outline: none;
+  background-color: #356749;
+}
+
+.addButton {
+  border: none;
+  background-color: #3f7d58;
+  color: #efefef;
+  padding: 0 1.5rem;
+  height: 2.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #356749;
+}
